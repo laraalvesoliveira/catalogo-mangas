@@ -28,7 +28,7 @@ function mostrarMangas() {
 }
 
 function removerManga(index) {
-  mangas.splice(index, 2);
+  mangas.splice(index, 1);
   mostrarMangas();
 }
 
