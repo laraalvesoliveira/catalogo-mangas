@@ -31,3 +31,5 @@ function removerManga(index) {
   mangas.splice(index, 1);
   mostrarMangas();
 }
+
+console.log("Sistema iniciado");
