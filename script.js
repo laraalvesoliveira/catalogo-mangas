@@ -28,8 +28,9 @@ function mostrarMangas() {
 }
 
 function removerManga(index) {
-  mangas.splice(index, 1);
+  mangas.splice(index, 2);
   mostrarMangas();
 }
 
 console.log("Sistema iniciado");
+
